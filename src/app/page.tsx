@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <main>
-      <div className="w-screen p-48 border border-gray-400 mx-auto text-center">
+      <div className="w-[70%] p-48 border-x-2 border-x-[--border-color] mx-auto text-center">
 
         <h1 className="font-bold text-5xl">
           Streamline your advertising
@@ -17,7 +17,7 @@ export default function Home() {
         <button className="bg-red-950 p-2 px-8 my-2 rounded-md shadow-2xl shadow-red-800/50 font-bold text-md hover:shadow-red-900/50 hover:shadow-xl hover:bg-red-900">
           Start the journey 
         </button>
-
+          
 
 
       </div>
