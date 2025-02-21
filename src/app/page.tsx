@@ -1,4 +1,3 @@
-
 export default function Home() {
   return (
     <main>
@@ -22,8 +21,16 @@ export default function Home() {
 
       </div>
 
-      <div>
+      <div className="w-[70%] p-48 border-x-2 border-x-[--border-color] border-t-2 border-t-[--border-color] mx-auto text-left">
 
+          <h1 className="bg-gradient-to-r from-pink-400 to-orange-500 text-transparent bg-clip-text font-bold text-4xl inline mr-2">
+            Custom hand-made 
+          </h1>
+          <h1 className="inline text-4xl font-bold ">
+            websites just for you.
+          </h1>
+
+          <h1 className="ml-20 text-gray-300 text-xl">Not just a template.</h1>
       </div>
     </main>
   );
