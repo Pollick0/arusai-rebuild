@@ -1,8 +1,8 @@
 
 export default function Home() {
   return (
-    <main>
-      <div className="w-[70%] p-48 border-x-2 border-x-[--border-color] mx-auto text-center">
+    <main className="z-0">
+      <div className="w-[70%] h-[2000px] p-40 border-x-[1px] border-x-[--border-color] mx-auto text-center">
 
         <h1 className="font-bold text-5xl">
           Streamline your advertising
@@ -18,9 +18,11 @@ export default function Home() {
           Start the journey 
         </button>
           
-
-
       </div>
+
+      {/* border */}
+      <div className="border-b-2 border-b-[--border-color]"></div>
+
 
       <div>
 
